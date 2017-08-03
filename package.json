@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-material": "^1.1.4",
+    "angular-route": "^1.6.4",
+    "angular-touch": "^1.6.5",
+    "angular-ui-bootstrap": "^2.5.0",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazadounet/VTCWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazadounet/VTCWebsite/issues"
+  },
+  "homepage": "https://github.com/nazadounet/VTCWebsite#readme"
+}
