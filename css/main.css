@@ -1,4 +1,8 @@
 /***************************** GENERAL RULS ******************************************/
+.flexDisplayed{
+    display: flex;
+}
+
 .flex-column{
     display: flex;
     flex-direction: column;
@@ -98,5 +102,7 @@
     position: absolute;
     z-index: -1;
 }
-
+div.uploadFileButton label{
+    margin-left: 20px;
+}
 /***************************** Upload Page Section ******************************************/
