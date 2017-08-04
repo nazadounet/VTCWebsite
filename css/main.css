@@ -1,8 +1,46 @@
+/***************************** GENERAL RULS ******************************************/
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+/**/
+.bg-black{
+    background: black;
+}
+
+.bg-red{
+    background: red;
+}
+
+.bg-yellow{
+    background: yellow;
+}
+
+.bg-green{
+    background: green;
+}
+/**/
+/***************************** GENERAL RULS ******************************************/
 /***************************** SID MENU START ******************************************/
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
+    max-width: 30%;
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
@@ -17,7 +55,7 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #818181;
     display: block;
     transition: 0.3s
@@ -45,8 +83,20 @@
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 40%) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
 /***************************** SID MENU END ******************************************/
+
+/***************************** Upload Page Section ******************************************/
+.inputFile{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+/***************************** Upload Page Section ******************************************/

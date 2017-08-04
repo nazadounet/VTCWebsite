@@ -1,0 +1,91 @@
+<div class="driverSectionContainer">
+
+	<br><br>
+
+	<p>Afin que vous poussiez accéder au service, nous vous demandons de bien vouloir nous faire parvenir les document cité ci-dessous. Vous recevrez ensuite un mail de confirmation aprés analyse de vos documents.</p>
+
+	<div ng-controller="FileUploadCtrl" class="uploadFileButton">
+
+		<div>	
+			<md-divider></md-divider>
+			<div style="width: 100%" class="flex-row item-center justity-center row">
+				<h4 class="bg-red col-lg-4">Extrait kbis</h4>
+				<input class="inputFile" type="file" id="file1" nv-file-select uploader="uploader"/><br/>
+				<div class="col-lg-2 bg-black">
+				<label for="file1" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
+				</div>
+				<p class="bg-yellow col-lg-6">salutsalutsalutsalutsalut</p>	
+			</div>
+		</div>
+		<md-divider></md-divider>
+
+		<div style="width: 100%" class="row text-center">
+			<h4 class="col-lg-4" style="display: inline-block;">Extrait kbis</h4>
+			<md-button class="md-raised md-warn md-list-item-text col-lg-6">
+				<div class="flex-row item-center">
+					<input class="inputFile" type="file" id="file1" nv-file-select uploader="uploader"/><br/>
+					<i class="material-icons">file_upload</i>
+					<label for="file1">Choisir un fichier</label>
+				</div>
+			</md-button>
+		</div>
+		<md-divider></md-divider>
+
+		<div style="width: 100%" class="row text-center">
+			<h4 class="col-lg-4" style="display: inline-block;">Extrait kbis</h4>
+			<md-button class="md-raised md-warn md-list-item-text col-lg-6">
+				<div class="flex-row item-center">
+					<input class="inputFile" type="file" id="file1" nv-file-select uploader="uploader"/><br/>
+					<i class="material-icons">file_upload</i>
+					<label for="file1">Choisir un fichier</label>
+				</div>
+			</md-button>
+		</div>
+		<md-divider></md-divider>
+
+		<div style="width: 100%" class="row text-center">
+			<h4 class="col-lg-4" style="display: inline-block;">Extrait kbis</h4>
+			<md-button class="md-raised md-warn md-list-item-text col-lg-6">
+				<div class="flex-row item-center">
+					<input class="inputFile" type="file" id="file1" nv-file-select uploader="uploader"/><br/>
+					<i class="material-icons">file_upload</i>
+					<label for="file1">Choisir un fichier</label>
+				</div>
+			</md-button>
+		</div>
+		<md-divider></md-divider>
+
+		<div style="width: 100%" class="row text-center">
+			<h4 class="col-lg-4" style="display: inline-block;">Extrait kbis</h4>
+			<md-button class="md-raised md-warn md-list-item-text col-lg-6">
+				<div class="flex-row item-center">
+					<input class="inputFile" type="file" id="file1" nv-file-select uploader="uploader"/><br/>
+					<i class="material-icons">file_upload</i>
+					<label for="file1">Choisir un fichier</label>
+				</div>
+			</md-button>
+		</div>
+		<md-divider></md-divider>
+
+		<div style="width: 100%" class="row text-center">
+			<h4 class="col-lg-4" style="display: inline-block;">Extrait kbis</h4>
+			<md-button class="md-raised md-warn md-list-item-text col-lg-6">
+				<div class="flex-row item-center">
+					<input class="inputFile" type="file" id="file1" nv-file-select uploader="uploader"/><br/>
+					<i class="material-icons">file_upload</i>
+					<label for="file1">Choisir un fichier</label>
+				</div>
+			</md-button>
+		</div>
+		<md-divider></md-divider>
+
+
+		<ul>
+			<li ng-repeat="item in uploader.queue">
+				Name: <span ng-bind="item.file.name"></span><br/>
+				<button ng-click="item.upload()">upload</button>
+			</li>
+		</ul>
+	</div>
+
+</div>
