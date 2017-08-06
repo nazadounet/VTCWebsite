@@ -10,12 +10,12 @@
 			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="height: 40px;">
 				<div flex="30" layout="row" layout-align="none center">
 					<h4 class="">Carte professionnel VTC</h4>
-					<input class="inputFile" type="file" id="VTCCard" nv-file-select uploader="uploader"/><br/>
-					<label for="file1" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
+					<input ng-click="VTCCardFile()" ng-model="VTCCardId" class="inputFile" type="file" id="VTCCard" nv-file-select uploader="uploader"/><br/>
+					<label for="VTCCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style="height: 40px"> 
-					<p ng-show="!item.queue[0].file.name">Aucun document fournis</p>	
-					<p ng-show="item.queue[0].file.name">{{item.queue[0].file.name}}</p>	
+					<p ng-show="!fileData.VTCCardFileName">Aucun document fournis</p>	
+					<p ng-show="VTCCardFileName">{{VTCCardFileName}}</p>	
 				</div>
 			</div>	
 		<md-divider></md-divider>
@@ -24,12 +24,12 @@
 			<div class="" layout="row" layout-xs="column" layout-align="center" style="height: 40px;">
 				<div flex="30" layout="row" layout-align="none center">
 					<h4 class="">Pièce d'identité</h4>
-					<input class="inputFile" type="file" id="IDCard" nv-file-select uploader="uploader"/><br/>
-					<label for="file1" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
+					<input ng-click="IDCardFile()" ng-model="IDCardId" class="inputFile" type="file" id="IDCard" nv-file-select uploader="uploader"/><br/>
+					<label for="IDCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style="height: 40px"> 
-					<p ng-show="!item.queue[1].file.name">Aucun document fournis</p>	
-					<p ng-show="item.queue[1].file.name">{{item.queue[1].file.name}}</p>	
+					<p ng-show="!IDCardFileName">Aucun document fournis</p>	
+					<p ng-show="IDCardFileName">{{IDCardFileName}}</p>	
 				</div>
 			</div>	
 		<md-divider></md-divider>
@@ -37,12 +37,12 @@
 			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="height: 40px;">
 				<div flex="30" layout="row" layout-align="none center">
 					<h4 class="">Permis de conduire</h4>
-					<input class="inputFile" type="file" id="driveCard" nv-file-select uploader="uploader"/><br/>
-					<label for="file1" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
+					<input ng-click="driveCardFile()" ng-model="driveCardId" class="inputFile" type="file" id="driveCard" nv-file-select uploader="uploader"/><br/>
+					<label for="driveCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style="height: 40px"> 
-					<p ng-show="!item.queue[1].file.name">Aucun document fournis</p>	
-					<p ng-show="item.queue[1].file.name">{{item.queue[1].file.name}}</p>	
+					<p ng-show="!driveCardFileName">Aucun document fournis</p>	
+					<p ng-show="driveCardFileName">{{driveCardFileName}}</p>	
 				</div>
 			</div>	
 		<md-divider></md-divider>
@@ -50,12 +50,12 @@
 			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="height: 40px;">
 				<div flex="30" layout="row" layout-align="none center">
 					<h4 class="">Assurance Responsabilité Civile professionnel</h4>
-					<input class="inputFile" type="file" id="civilInsurance" nv-file-select uploader="uploader"/><br/>
-					<label for="file1" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
+					<input ng-click="civilInsuranceFile()" ng-model="civilInsuranceId" class="inputFile" type="file" id="civilInsurance" nv-file-select uploader="uploader"/><br/>
+					<label for="civilInsurance" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style="height: 40px"> 
-					<p ng-show="!item.queue[1].file.name">Aucun document fournis</p>	
-					<p ng-show="item.queue[1].file.name">{{item.queue[1].file.name}}</p>	
+					<p ng-show="!cilvileInsuranceFileName">Aucun document fournis</p>	
+					<p ng-show="cilvileInsuranceFileName">{{civilInsuranceFileNameFileName}}</p>	
 				</div>
 			</div>	
 		<md-divider></md-divider>
@@ -63,12 +63,12 @@
 			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="height: 40px;">
 				<div flex="30" layout="row" layout-align="none center">
 					<h4 class="">Licence Atout France</h4>
-					<input class="inputFile" type="file" id="atoutFrance" nv-file-select uploader="uploader"/><br/>
-					<label for="file1" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
+					<input ng-click="atoutFranceFile()" ng-model="atoutFranceId" class="inputFile" type="file" id="atoutFrance" nv-file-select uploader="uploader"/><br/>
+					<label for="atoutFrance" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style="height: 40px"> 
-					<p ng-show="!item.queue[1].file.name">Aucun document fournis</p>	
-					<p ng-show="item.queue[1].file.name">{{item.queue[1].file.name}}</p>	
+					<p ng-show="!atoutFranceFileName">Aucun document fournis</p>	
+					<p ng-show="atoutFranceFileName">{{atoutFranceFileName}}</p>	
 				</div>
 			</div>	
 		<md-divider></md-divider>
@@ -76,19 +76,17 @@
 			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="height: 40px;">
 				<div flex="30" layout="row" layout-align="none center">
 					<h4 class="">Extrait KBIS</h4>
-					<input class="inputFile" type="file" id="KBIS" nv-file-select uploader="uploader"/><br/>
-					<label for="file1" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
+					<input ng-click="KBISFile()" ng-model="KBISId" class="inputFile" type="file" id="KBIS" nv-file-select uploader="uploader"/><br/>
+					<label for="KBIS" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style="height: 40px"> 
-					<p ng-show="!item.queue[1].file.name">Aucun document fournis</p>	
-					<p ng-show="item.queue[1].file.name">{{item.queue[1].file.name}}</p>	
+					<p ng-show="!KBISFileName">Aucun document fournis</p>	
+					<p ng-show="KBISFileName">{{KBISFileName}}</p>	
 				</div>
 			</div>	
-		<md-divider></md-divider>
-
-		<input type="file">
-
-
+		<md-divider></md-divider>	
+			
+		<button ng-click="displayFileData()">console</button>
 
 		<ul>
 			<li ng-repeat="item in uploader.queue">
