@@ -10,6 +10,9 @@ app.config(['$routeProvider', function($routeProvider) {
 		.when('/driverSection', {
 			templateUrl: 'partials/driverSection.html',
 		})
+		.when('/testUpload', {
+			templateUrl: 'partials/testUpload.html',
+		})
 
 		.otherwise({redirectTo: '/'});
 }]);
