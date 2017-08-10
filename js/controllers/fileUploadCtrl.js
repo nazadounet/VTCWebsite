@@ -1,137 +1,70 @@
-app.controller('FileUploadCtrl', ['$scope', 'FileUploader', '_', function($scope, FileUploader, _){
+app.controller('FileUploadCtrl', ['$scope', 'Upload', '_', function($scope, Upload, _){
 
-	var uploader = $scope.uploader = new FileUploader();
+	$scope.queue = {}
 
-	$scope.fileData =  {};
+/***************************************************** DELETE FILE SECTION ***********************************/
+	$scope.removeItemFromQueue = function (fileName) {
+		//if filename match with one of all queue's property, then change $scope Value for this file
+				var fileIndex = _.findKey($scope.queue, ['name', fileName]);
 
-/***************************************************** ADDING FILE SECTION ***********************************/
-	$scope.removeItemFromQueue = function (fileId) {
-		//retrieving index of a id file to be able to clear file's name in scope.
-		var fileIndex = _.findKey($scope.fileData, ['id', fileId]);
-		//removing from queue with fileId params given to the function
-		uploader.removeFromQueue(fileId);
-		//if filename match with one of all fileData's property, then change $scope Value for this file
-		 for(var filename in $scope.fileData){
-			if (filename == fileIndex){
-				switch(filename){
+				switch(fileIndex){
 					case 'VTCCard' :
-						delete $scope.fileData.VTCCard
+						delete $scope.queue.VTCCard
+						console.info('Object VTCCard cleared from the queue');
+						console.log($scope.queue);
 					break;
 
 					case 'IDCard' :
-						delete $scope.fileData.IDCard
+						delete $scope.queue.IDCard
+						console.info('Object IDCard cleared from the queue');
+						console.log($scope.queue);
 					break;
 
 					case 'driveCard' :
-						delete $scope.fileData.driveCard
+						delete $scope.queue.driveCard
+						console.info('Object driveCard cleared from the queue');
+						console.log($scope.queue);
 					break;
 
 					case 'civilInsurance' :
-						delete $scope.fileData.civilInsurance
+						delete $scope.queue.civilInsurance
+						console.info('Object civilInsurance cleared from the queue');
+						console.log($scope.queue);
 					break;
 
 					case 'atoutFrance' :
-						delete $scope.fileData.atoutFrance
+						delete $scope.queue.atoutFrance
+						console.info('Object atoutFrance cleared from the queue');
+						console.log($scope.queue);
 					break;
 
 					case 'KBIS' :
-						delete $scope.fileData.KBIS
+						delete $scope.queue.KBIS
+						console.info('Object KBIS cleared from the queue');
+						console.log($scope.queue);
 					break;
 
 					default:
 						alert('Aucun document ne correspond à votre demande');	
-				}
-			}else{
-				console.log('Aucune référence trouver dans le document')
-			}
 		 }
-	}
+	}	
 
-	$scope.VTCCardFile = function(){
-		//firstly we check if there is already a file for this section
-		if($scope.fileData.VTCCard){ 
-			//if true, remove file from queue to avoid id generation problems
-			uploader.removeFromQueue($scope.fileData.VTCCard.id);
-			//clear the $scope file name
-			delete $scope.fileData.VTCCard;
-			//then update the queue and $scope file name
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.VTCCard = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}else{		
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.VTCCard = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}
-	}
-
-	$scope.IDCardFile = function(){
-		if($scope.fileData.IDCard){ 
-			uploader.removeFromQueue($scope.fileData.IDCard.id);
-			delete $scope.fileData.IDCard;
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.IDCard = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}else{		
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.IDCard = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}
-	}
-
-	$scope.driveCardFile = function(){
-		if($scope.fileData.driveCard){ 
-			uploader.removeFromQueue($scope.fileData.driveCard.id);
-			delete $scope.fileData.driveCard;
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.driveCard = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}else{		
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.driveCard = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}
-	}
-
-	$scope.civilInsuranceFile = function(){
-		if($scope.fileData.civilInsurance){ 
-			uploader.removeFromQueue($scope.fileData.civilInsurance.id);
-			delete $scope.fileData.civilInsurance;
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.civilInsurance = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}else{		
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.civilInsurance = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}
-	}
-	$scope.atoutFranceFile = function(){
-		if($scope.fileData.atoutFrance){ 
-			uploader.removeFromQueue($scope.fileData.atoutFrance.id);
-			delete $scope.fileData.atoutFrance;
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.atoutFrance = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}else{		
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.atoutFrance = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}
-	}
-	$scope.KBISFile = function(){
-		if($scope.fileData.KBIS){ 
-			uploader.removeFromQueue($scope.fileData.KBIS.id);
-			delete $scope.fileData.KBIS;
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.KBIS = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}else{		
-			uploader.onAfterAddingFile = function(item){
-				$scope.fileData.KBIS = {'filename' : item.file.name, 'id' : uploader.getIndexOfItem(item)};
-			}
-		}
-	}
 /***************************************************** ADDING FILE SECTION ***********************************/
+
+	$scope.addToQueue = function(file, event){
+
+		console.log($scope.queue);
+
+		console.log('File successfuly added to queue under : ' 
+						+ event.target.attributes[4].value
+						+ ' with name : '
+						+ file[0].name);
+	}
+
+/***************************************************** ADDING FILE SECTION ***********************************/
+	
+	$scope.uploaderFileToServer = function(){
+
+	}	
 
 }]);

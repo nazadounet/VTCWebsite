@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ngRoute', 'ngMaterial', 'ui.bootstrap', 'angularFileUpload']);
+var app = angular.module('myApp', ['ngRoute', 'ngMaterial', 'ui.bootstrap', 'ngFileUpload']);
 
 app.constant('_', window._)
 

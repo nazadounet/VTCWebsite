@@ -11,13 +11,13 @@
 				<div flex="30" layout="row" layout-align="none center">
 					<label for="VTCCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 					<h4 class="">Carte professionnel VTC</h4>
-					<input ng-click="VTCCardFile()" ng-model="fileData.VTCCard.id" class="inputFile" type="file" id="VTCCard" nv-file-select uploader="uploader"/><br/>
+					<input class="inputFile" type="file" id="VTCCard" ngf-select="addToQueue($files, $event)" ng-model="queue.VTCCard"/><br/>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!fileData.VTCCard.filename">Aucun document fournis</p>	
-					<p ng-show="fileData.VTCCard.filename">
-						{{fileData.VTCCard.filename}} 
-						<button ng-click="removeItemFromQueue(fileData.VTCCard.id)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
+					<p ng-show="!queue.VTCCard.name">Aucun document fournis</p>	
+					<p ng-show="queue.VTCCard.name">
+						{{queue.VTCCard.name}} 
+						<button ng-click="removeItemFromQueue(queue.VTCCard.name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
 					</p>	
 				</div>
 			</div>	
@@ -28,13 +28,13 @@
 				<div flex="30" layout="row" layout-align="none center">
 					<label for="IDCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 					<h4 class="">Pièce d'identité</h4>
-					<input ng-click="IDCardFile()" ng-model="fileData.IDCard.id" class="inputFile" type="file" id="IDCard" nv-file-select uploader="uploader"/><br/>
+					<input class="inputFile" type="file" id="IDCard" ngf-select="addToQueue($files, $event)" ng-model="queue.IDCard"/><br/>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!fileData.IDCard.filename">Aucun document fournis</p>	
-					<p ng-show="fileData.IDCard.filename">
-						{{fileData.IDCard.filename}}
-						<button ng-click="removeItemFromQueue(fileData.IDCard.id)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
+					<p ng-show="!queue.IDCard.name">Aucun document fournis</p>	
+					<p ng-show="queue.IDCard.name">
+						{{queue.IDCard.name}}
+						<button ng-click="removeItemFromQueue(queue.IDCard.name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
 					</p>	
 				</div>
 			</div>	
@@ -44,13 +44,13 @@
 				<div flex="30" layout="row" layout-align="none center">
 					<label for="driveCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 					<h4 class="">Permis de conduire</h4>
-					<input ng-click="driveCardFile()" ng-model="fileData.driveCard.id" class="inputFile" type="file" id="driveCard" nv-file-select uploader="uploader"/><br/>
+					<input class="inputFile" type="file" id="driveCard" ngf-select="addToQueue($files, $event)" ng-model="queue.driveCard"/><br/>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!fileData.driveCard.filename">Aucun document fournis</p>	
-					<p ng-show="fileData.driveCard.filename">
-						{{fileData.driveCard.filename}}
-						<button ng-click="removeItemFromQueue(fileData.driveCard.id)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
+					<p ng-show="!queue.driveCard.name">Aucun document fournis</p>	
+					<p ng-show="queue.driveCard.name">
+						{{queue.driveCard.name}}
+						<button ng-click="removeItemFromQueue(queue.driveCard.name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
 					</p>	
 				</div>
 			</div>	
@@ -60,13 +60,13 @@
 				<div flex="30" layout="row" layout-align="none center">
 					<label for="civilInsurance" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 					<h4 class="">Assurance Responsabilité Civile professionnel</h4>
-					<input ng-click="civilInsuranceFile()" ng-model="fileData.civilInsurance.id" class="inputFile" type="file" id="civilInsurance" nv-file-select uploader="uploader"/><br/>
+					<input class="inputFile" type="file" id="civilInsurance" ngf-select="addToQueue($files, $event)" ng-model="queue.civilInsurance"/><br/>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!fileData.civilInsurance.filename">Aucun document fournis</p>	
-					<p ng-show="fileData.civilInsurance.filename">
-						{{fileData.civilInsurance.filename}}
-						<button ng-click="removeItemFromQueue(fileData.civilInsurance.id)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
+					<p ng-show="!queue.civilInsurance.name">Aucun document fournis</p>	
+					<p ng-show="queue.civilInsurance.name">
+						{{queue.civilInsurance.name}}
+						<button ng-click="removeItemFromQueue(queue.civilInsurance.name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
 					</p>	
 				</div>
 			</div>	
@@ -76,13 +76,13 @@
 				<div flex="30" layout="row" layout-align="none center">
 					<label for="atoutFrance" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 					<h4 class="">Licence Atout France</h4>
-					<input ng-click="atoutFranceFile()" ng-model="fileData.atoutFrance.id" class="inputFile" type="file" id="atoutFrance" nv-file-select uploader="uploader"/><br/>
+					<input class="inputFile" type="file" id="atoutFrance" ngf-select="addToQueue($files, $event)" ng-model="queue.atoutFrance"/><br/>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!fileData.atoutFrance.filename">Aucun document fournis</p>	
-					<p ng-show="fileData.atoutFrance.filename">
-						{{fileData.atoutFrance.filename}}
-						<button ng-click="removeItemFromQueue(fileData.atoutFrance.id)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
+					<p ng-show="!queue.atoutFrance.name">Aucun document fournis</p>	
+					<p ng-show="queue.atoutFrance.name">
+						{{queue.atoutFrance.name}}
+						<button ng-click="removeItemFromQueue(queue.atoutFrance.name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
 					</p>	
 				</div>
 			</div>	
@@ -92,22 +92,21 @@
 				<div flex="30" layout="row" layout-align="none center">
 					<label for="KBIS" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 					<h4 class="">Extrait KBIS</h4>
-					<input ng-click="KBISFile()" ng-model="fileData.KBIS.id" class="inputFile" type="file" id="KBIS" nv-file-select uploader="uploader"/><br/>
+					<input class="inputFile" type="file" id="KBIS" ngf-select="addToQueue($files, $event)" ng-model="queue.KBIS"/><br/>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!fileData.KBIS.filename">Aucun document fournis</p>	
-					<p ng-show="fileData.KBIS.filename">
-						{{fileData.KBIS.filename}}
-						<button ng-click="removeItemFromQueue(fileData.KBIS.id)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
+					<p ng-show="!queue.KBIS.name">Aucun document fournis</p>	
+					<p ng-show="queue.KBIS.name">
+						{{queue.KBIS.name}}
+						<button ng-click="removeItemFromQueue(queue.KBIS.name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
 					</p>	
 				</div>
 			</div>	
 		<md-divider></md-divider>	
 
 		<ul>
-			<li ng-repeat="item in uploader.queue">
-				Name: <span ng-bind="item.file.name"></span><br/>
-				<button ng-click="item.upload()">upload</button>
+			<li ng-repeat="item in queue">
+				Name: <span ng-bind="item"></span><br/>
 			</li>
 		</ul>
 	</div>
