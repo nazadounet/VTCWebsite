@@ -12,19 +12,17 @@ app.controller('FileUploadCtrl', ['$scope', 'Upload', '_', function($scope, Uplo
 		for (var key in $scope.queue) {
 			if($scope.queue[key][0].name === fileName){
 				delete $scope.queue[key];
-				l('file deleted : ' + fileName);
+				console.log('file deleted : ' + fileName);
 			}
 		}
 		console.log($scope.queue);
-	}	
+	};
 
 	/***************************************************** ADDING FILE SECTION ***********************************/
 
 	$scope.addToQueue = function(file, event){
 		var ngModelFromInput = event.target.attributes[4].value;
-		
 		var fileName = file[0].name;
-
 		var duplicateFile = false;
 
 		if(Object.keys($scope.queue).length){	
@@ -38,23 +36,36 @@ app.controller('FileUploadCtrl', ['$scope', 'Upload', '_', function($scope, Uplo
 
 		if(duplicateFile === false){
 			$scope.queue[ngModelFromInput] = file;
-
 			console.log($scope.queue);
-
 			console.log('File successfuly added to queue under : ' 
 				+ ngModelFromInput
 				+ ' with name : '
 				+ fileName);	
-			console.log('file added without checking $scope.queue.length')
-
+			console.log('file added without checking $scope.queue.length');
 			delete $scope[ngModelFromInput];
 		}
-	}
+	};
 
 	/***************************************************** ADDING FILE SECTION ***********************************/
 
-	$scope.uploaderFileToServer = function(){
+	$scope.response = '';
 
-	}	
+	$scope.uploadeFileToServer = function(){
+
+        Upload.upload({
+            url: 'http://localhost:8888/Api-ti-tak/public/api/v1/fileUpload',
+            data: {
+            	id : 1234,
+				VTCCard : $scope.queue.VTCCard,
+				driveCard: $scope.queue.driveCard
+			}
+        }).then(function (resp) {
+            console.log(resp.data);
+            $scope.response = resp;
+        }, function (resp) {
+            console.log('Error status: ' + resp.status);
+        });
+
+	}
 
 }]);

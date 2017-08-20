@@ -11,7 +11,7 @@
 				<div flex="30" layout="row" layout-align="none center">
 					<label for="VTCCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
 					<h4 class="">Carte professionnel VTC</h4>
-					<input class="inputFile" type="file" id="VTCCard" ngf-select="addToQueue($files, $event)" ng-model="VTCCard"/><br/>
+					<input class="inputFile" type="file" id="VTCCard" ngf-select="addToQueue($files, $event)" ng-model="VTCCard" accept=""/><br/>
 				</div>
 				<div flex="70" layout="row" layout-align="center center" style=""> 
 					<p ng-show="!queue.VTCCard[0].name">Aucun document fournis</p>	
@@ -102,13 +102,19 @@
 					</p>	
 				</div>
 			</div>	
-		<md-divider></md-divider>	
+		<md-divider></md-divider>
+
+		<button ng-click="uploadeFileToServer()">envoyer</button>
 
 		<ul>
 			<li ng-repeat="item in queue">
 				Name: <span ng-bind="item"></span><br/>
 			</li>
 		</ul>
+	</div>
+
+	<div>
+		<p>{{response}}</p>
 	</div>
 
 </div>
