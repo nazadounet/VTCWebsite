@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///Applications/MAMP/htdocs/Api-ti-tak/.idea/Api-ti-tak.iml" filepath="/Applications/MAMP/htdocs/Api-ti-tak/.idea/Api-ti-tak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../VTCPlateform/.idea/VTCPlateform-User.iml" filepath="$PROJECT_DIR$/../VTCPlateform/.idea/VTCPlateform-User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/website.iml" filepath="$PROJECT_DIR$/.idea/website.iml" />
+    </modules>
+  </component>
+</project>
