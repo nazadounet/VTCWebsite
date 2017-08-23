@@ -37,12 +37,13 @@
  <!-- controller declaration -->
  <script type="text/javascript" src="js/controllers/SideMenuCtrl.js"></script>
  <script type="text/javascript" src="js/controllers/fileUploadCtrl.js"></script>
- 
+ <script type="text/javascript" src="js/controllers/SignUpCtrl.js"></script>
+
  <script type="text/javascript" src="js/controllers/uploadTestCtrl.js"></script>
  <!-- controller declaration -->
 
  <!-- services declaration -->
- 
+ <script type="text/javascript" src="js/services/driversDataManagerFactory.js"></script>
  <!-- services declaration -->
 
 </head>
@@ -51,7 +52,7 @@
 	<header>
 
     <md-content>
-     <md-toolbar class="md-hue-2" style="position: fixed;">
+     <md-toolbar class="md-hue-2" style="position: fixed; background:#3f1e64;">
       <div class="md-toolbar-tools">
 
         <md-button ng-click="openNav()"><i class="material-icons">menu</i></md-button>
@@ -73,7 +74,8 @@
 
 </header>
 
-<div id="main" class="container" ng-view></div>
+<div id="main" ng-view></div>
+
 
 </body>
 </html>

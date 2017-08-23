@@ -48,24 +48,31 @@ app.controller('FileUploadCtrl', ['$scope', 'Upload', '_', function($scope, Uplo
 
 	/***************************************************** ADDING FILE SECTION ***********************************/
 
-	$scope.response = '';
+	$scope.responseonse = '';
 
 	$scope.uploadeFileToServer = function(){
-
-        Upload.upload({
-            url: 'http://localhost:8888/Api-ti-tak/public/api/v1/fileUpload',
-            data: {
-            	id : 1234,
-				VTCCard : $scope.queue.VTCCard,
-				driveCard: $scope.queue.driveCard
-			}
-        }).then(function (resp) {
-            console.log(resp.data);
-            $scope.response = resp;
-        }, function (resp) {
-            console.log('Error status: ' + resp.status);
-        });
-
+		if(Object.keys($scope.queue).length < 1){
+			alert('Veuillez joindre tout les fichiers demandé');
+		}else{
+			Upload.upload({
+				url: 'http://localhost:8888/Api-ti-tak/public/api/v1/fileUpload',
+				data: {
+					id : 1234,
+					VTCCard : $scope.queue.VTCCard,
+					IDCard: $scope.queue.IDCard,
+					driveCard: $scope.queue.driveCard,
+                    civilInsurance : $scope.queue.civilInsurance,
+                    atoutFrance : $scope.queue.atoutFrance,
+                    KBIS : $scope.queue.KBIS
+				}
+			}).then(function (response) {
+				console.log(response.status);
+				if(response.status == 200){
+                    delete $scope.queue;
+				}
+			}, function (response) {
+				console.log('Error status: ' + response.status);
+			});
+		}
 	}
-
 }]);

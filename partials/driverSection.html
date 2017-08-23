@@ -1,120 +1,15 @@
-<div class="driverSectionContainer">
+<div class="driverSectionContainer" ng-controller="SignUpCtrl">
+    <br><br>
 
-	<br><br>
+            <p>
+                Veuillez renseigner vos informations pour de continuer. Une vérification sera faites, veillez a ce que celle-ci soient correcte.
+            </p>
 
-	<p>Afin que vous poussiez accéder au service, nous vous demandons de bien vouloir nous faire parvenir les document cité ci-dessous. Vous recevrez ensuite un mail de confirmation aprés analyse de vos documents.</p>
-
-	<div ng-controller="FileUploadCtrl" class="uploadFileButton">
-
-			<md-divider></md-divider>
-			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="">
-				<div flex="30" layout="row" layout-align="none center">
-					<label for="VTCCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
-					<h4 class="">Carte professionnel VTC</h4>
-					<input class="inputFile" type="file" id="VTCCard" ngf-select="addToQueue($files, $event)" ng-model="VTCCard" accept=""/><br/>
-				</div>
-				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!queue.VTCCard[0].name">Aucun document fournis</p>	
-					<p ng-show="queue.VTCCard[0].name">
-						{{queue.VTCCard[0].name}} 
-						<button ng-click="removeItemFromQueue(queue.VTCCard[0].name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
-					</p>	
-				</div>
-			</div>	
-		<md-divider></md-divider>
-
-
-			<div class="" layout="row" layout-xs="column" layout-align="center" style="">
-				<div flex="30" layout="row" layout-align="none center">
-					<label for="IDCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
-					<h4 class="">Pièce d'identité</h4>
-					<input class="inputFile" type="file" id="IDCard" ngf-select="addToQueue($files, $event)" ng-model="IDCard"/><br/>
-				</div>
-				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!queue.IDCard[0].name">Aucun document fournis</p>	
-					<p ng-show="queue.IDCard[0].name">
-						{{queue.IDCard[0].name}}
-						<button ng-click="removeItemFromQueue(queue.IDCard[0].name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
-					</p>	
-				</div>
-			</div>	
-		<md-divider></md-divider>
-
-			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="">
-				<div flex="30" layout="row" layout-align="none center">
-					<label for="driveCard" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
-					<h4 class="">Permis de conduire</h4>
-					<input class="inputFile" type="file" id="driveCard" ngf-select="addToQueue($files, $event)" ng-model="driveCard"/><br/>
-				</div>
-				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!queue.driveCard[0].name">Aucun document fournis</p>	
-					<p ng-show="queue.driveCard[0].name">
-						{{queue.driveCard[0].name}}
-						<button ng-click="removeItemFromQueue(queue.driveCard[0].name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
-					</p>	
-				</div>
-			</div>	
-		<md-divider></md-divider>
-
-			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="">
-				<div flex="30" layout="row" layout-align="none center">
-					<label for="civilInsurance" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
-					<h4 class="">Assurance Responsabilité Civile professionnel</h4>
-					<input class="inputFile" type="file" id="civilInsurance" ngf-select="addToQueue($files, $event)" ng-model="civilInsurance"/><br/>
-				</div>
-				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!queue.civilInsurance[0].name">Aucun document fournis</p>	
-					<p ng-show="queue.civilInsurance[0].name">
-						{{queue.civilInsurance[0].name}}
-						<button ng-click="removeItemFromQueue(queue.civilInsurance[0].name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
-					</p>	
-				</div>
-			</div>	
-		<md-divider></md-divider>
-
-			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="">
-				<div flex="30" layout="row" layout-align="none center">
-					<label for="atoutFrance" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
-					<h4 class="">Licence Atout France</h4>
-					<input class="inputFile" type="file" id="atoutFrance" ngf-select="addToQueue($files, $event)" ng-model="atoutFrance"/><br/>
-				</div>
-				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!queue.atoutFrance[0].name">Aucun document fournis</p>	
-					<p ng-show="queue.atoutFrance[0].name">
-						{{queue.atoutFrance[0].name}}
-						<button ng-click="removeItemFromQueue(queue.atoutFrance[0].name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
-					</p>	
-				</div>
-			</div>	
-		<md-divider></md-divider>
-
-			<div class="" layout="row" layout-wrap layout-xs="column" layout-align="center" style="">
-				<div flex="30" layout="row" layout-align="none center">
-					<label for="KBIS" class="btn btn-success btn-xs"><i class="material-icons">file_upload</i></label>
-					<h4 class="">Extrait KBIS</h4>
-					<input class="inputFile" type="file" id="KBIS" ngf-select="addToQueue($files, $event)" ng-model="KBIS"/><br/>
-				</div>
-				<div flex="70" layout="row" layout-align="center center" style=""> 
-					<p ng-show="!queue.KBIS[0].name">Aucun document fournis</p>	
-					<p ng-show="queue.KBIS[0].name">
-						{{queue.KBIS[0].name}}
-						<button ng-click="removeItemFromQueue(queue.KBIS[0].name)" class="btn btn-outline-danger btn-xs"><i class="material-icons">delete</i></button>
-					</p>	
-				</div>
-			</div>	
-		<md-divider></md-divider>
-
-		<button ng-click="uploadeFileToServer()">envoyer</button>
-
-		<ul>
-			<li ng-repeat="item in queue">
-				Name: <span ng-bind="item"></span><br/>
-			</li>
-		</ul>
-	</div>
-
-	<div>
-		<p>{{response}}</p>
-	</div>
+            <form ng-submit="submit(driverData.lastname, driverData.firstname, driverData.email)">
+                <input type="text" placeholder="Nom" ng-model="driverData.lastname">
+                <input type="text" placeholder="Prénom" ng-model="driverData.firstname">
+                <input type="text" placeholder="Addresse email" ng-model="driverData.email">
+                <button type="submit">Suivant</button>
+            </form>
 
 </div>
