@@ -1,42 +1,30 @@
-app.controller('UploadTestCtrl', ['$scope', '_', function($scope, Upload, _){
-
-	function l(params){
-		console.log(params);
-	};
-
-	//$scope.queue = {}
-
-	$scope.var = "queue.VTCCard";
-	var reg = $scope.var.substring(6);
-
-	$scope.tableau = [];
-	var s = $scope.tableau;
-
-	$scope.addToQueue = function(file, event){
+app.controller('UploadTestCtrl', ['$scope', '_', '$mdDialog', '$location', function($location, $scope, Upload, $mdDialog, _){
 
 
-		var lool = event.target.attributes[2].value;
-		var drive = 'Drive'
+    $scope.showPrerenderedDialog = function() {
+       $location.path("#!/driverSectionFile");
+    };
+	 $scope.showPrerenderedDialogSignUp= function(ev) {
+			$mdDialog.show({
+				contentElement: '#signUp',
+				parent: angular.element(document.body),
+				targetEvent: ev,
+				clickOutsideToClose: false
+			});
+		};
 
-		$scope.tableau[lool] = file;
-		$scope.tableau[drive] = file;
+	$scope.showPrerenderedDialogStatus= function(ev) {
+				$mdDialog.show({
+					contentElement: '#getStatus',
+					parent: angular.element(document.body),
+					targetEvent: ev,
+					clickOutsideToClose: false
+				});
+			};
 
-		l($scope.tableau.VTC[0].name);
-
-
-		}
-	$scope.delete = function(name){
-
-		for (var key in s) {
-				if(s[key][0].name === name){
-					delete s[key];
-					l('file deleted');
-				}
-		}
-		l(s);
-	}
-
-
+    $scope.cancel = function() {
+        $mdDialog.cancel();
+    };
 
 
 }]);

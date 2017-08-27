@@ -1,5 +1,7 @@
 app.factory('driversDataManagerFactory', ['$http', '$q', '_', function($http, $q ,_){
 
+    var driverId;
+
     var deferred = $q.defer();
 
     var factory = {
@@ -17,7 +19,6 @@ app.factory('driversDataManagerFactory', ['$http', '$q', '_', function($http, $q
                 data : driverProfil
             })
                 .then(function (response) {
-                    console.log(response);
                     deferred.resolve(response);
                 }, function (err) {
                     deferred.reject(err.status);

@@ -1,15 +1,120 @@
 <div class="driverSectionContainer" ng-controller="SignUpCtrl">
     <br><br>
 
-            <p>
-                Veuillez renseigner vos informations pour de continuer. Une vérification sera faites, veillez a ce que celle-ci soient correcte.
-            </p>
 
-            <form ng-submit="submit(driverData.lastname, driverData.firstname, driverData.email)">
-                <input type="text" placeholder="Nom" ng-model="driverData.lastname">
-                <input type="text" placeholder="Prénom" ng-model="driverData.firstname">
-                <input type="text" placeholder="Addresse email" ng-model="driverData.email">
-                <button type="submit">Suivant</button>
-            </form>
+    <div class="flexDisplayed" style="width: 100%; height: 80%; background: url('../img/chauffeur-privé.jpg');background-size: cover;">
+
+    </div>
+
+    <div class="flex-column justify-center item-center" style="width: 100%; margin-top: 70px;">
+        <div class="flex-row justify-center item-center" style="margin-bottom: 40px;">
+            <md-button ng-click="showPrerenderedDialogSignUp($event)" class="md-raised md-primary" style="margin-top: auto; margin-bottom: 10px; ">
+                Pré-inscription chauffeur
+            </md-button>
+            <md-button ng-click="showPrerenderedDialogStatus($event)" class="md-raised" style="margin-top: auto; margin-bottom: 10px; ">
+                Avancement de votre dossier
+            </md-button>
+        </div>
+
+        <h2>Arguments</h2>
+
+        <div class="flex-row item-center" style="margin-top:30px; width:100%; justify-content: space-around;">
+
+            <div class="flex-column justify-center item-center" style="max-width: 200px">
+                <div style="width: 250px; height: 150px; background: grey; margin-bottom: 10px;"></div>
+                <h4>Atout 1</h4>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut,
+                    cupiditate eaque, est et, exercitationem id impedit laboriosam maiores praesentium quas unde
+                    voluptate!</p>
+            </div>
+
+            <div class="flex-column justify-center item-center" style="max-width: 200px">
+                <div style="width: 250px; height: 150px; background: grey; margin-bottom: 10px;"></div>
+                <h4>Atout 2</h4>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut,
+                    cupiditate eaque, est et, exercitationem id impedit laboriosam maiores praesentium quas unde
+                    voluptatem!</p>
+            </div>
+
+            <div class="flex-column justify-center item-center" style="max-width: 200px">
+                <div style="width: 250px; height: 150px; background: grey; margin-bottom: 10px;"></div>
+                <h4>Atout 3</h4>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut,
+                    cupiditate eaque, est et, exercitationem id impedit laboriosam maiores praesentium quas unde
+                    voluptatem! </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="visibility: hidden">
+        <div class="md-dialog-container" id="signUp">
+            <md-dialog>
+                <div class="flex-column justify-center item-center">
+                    <div style=" background:grey;">
+                        <p layout-padding style="color:white; text-align: center">Afin de poursuivre votre demande d'adhésion, nous avons besoin de quelques informations. Veillez à ce que celles-ci soient<strong>correcte.</strong></p>
+                    </div>
+                    <div class="flex-row justify-center item-center" style="margin-top: 30px;">
+                        <md-input-container style="color: white;">
+                            <label>Nom</label>
+                            <input ng-model="driverData.lastname">
+                        </md-input-container>
+                        <md-input-container>
+                            <label>Prénom</label>
+                            <input ng-model="driverData.firstname">
+                        </md-input-container>
+                        <md-input-container>
+                            <label>Email</label>
+                            <input ng-model="driverData.email">
+                        </md-input-container>
+                    </div>
+                    <div class="flex-row justify-center item-center">
+                        <md-button ng-click="cancel()">Annuler</md-button>
+                        <md-button style="background:#3f1e64; color: white;" ng-click="submit(driverData.lastname, driverData.firstname, driverData.email)">Suivant</md-button>
+                    </div>
+                </div>
+
+            </md-dialog>
+        </div>
+    </div>
+
+    <div style="visibility: hidden">
+        <div class="md-dialog-container" id="emailAlert">
+            <md-dialog layout-padding>
+                <div class="flex-row justify-center">
+                    <i class="material-icons" style="margin-right: 15px">warning</i>
+                    <p class="">Cette addresse email est déjà utilisée. Clickez sur <strong>"Vérifier votre status"</strong> pour voir l'état d'avancement de votre dossier.</p>
+                </div>
+                <div class="flex-row justify-center item-center">
+                    <md-button>Verifier votre status</md-button>
+                    <md-button ng-click="cancel()">Retour</md-button>
+                </div>
+
+            </md-dialog>
+        </div>
+    </div>
+
+    <div style="visibility: hidden">
+        <div class="md-dialog-container" id="getStatus">
+            <md-dialog>
+                <div class="flex-column justify-center item-center">
+                    <div style="background:#3f1e64;">
+                        <p layout-padding style="color:white; text-align: center">Pour vérifier l'état d'avance de votre dossier, veuillez entrer votre addresse email utilisé lors de votre inscription.</p>
+                    </div>
+
+                    <md-input-container style="margin-top: 60px;">
+                        <label>Email</label>
+                        <input ng-model="user.title">
+                    </md-input-container>
+                </div>
+                <div class="flex-row justify-center item-center" style="padding-bottom: 15px;">
+                    <md-button ng-click="cancel()">Retour</md-button>
+                    <md-button class="md-raised">Verifier votre status</md-button>
+                </div>
+            </md-dialog>
+        </div>
+    </div>
 
 </div>

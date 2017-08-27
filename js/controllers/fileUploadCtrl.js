@@ -57,7 +57,7 @@ app.controller('FileUploadCtrl', ['$scope', 'Upload', '_', function($scope, Uplo
 			Upload.upload({
 				url: 'http://localhost:8888/Api-ti-tak/public/api/v1/fileUpload',
 				data: {
-					id : 1234,
+					id : 1,
 					VTCCard : $scope.queue.VTCCard,
 					IDCard: $scope.queue.IDCard,
 					driveCard: $scope.queue.driveCard,
@@ -66,9 +66,10 @@ app.controller('FileUploadCtrl', ['$scope', 'Upload', '_', function($scope, Uplo
                     KBIS : $scope.queue.KBIS
 				}
 			}).then(function (response) {
-				console.log(response.status);
+				console.log(response);
 				if(response.status == 200){
-                    delete $scope.queue;
+					$scope.queue = {};
+					console.log($scope.queue);
 				}
 			}, function (response) {
 				console.log('Error status: ' + response.status);
