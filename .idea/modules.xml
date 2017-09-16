@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file:///Applications/MAMP/htdocs/Api-ti-tak/.idea/Api-ti-tak.iml" filepath="/Applications/MAMP/htdocs/Api-ti-tak/.idea/Api-ti-tak.iml" />
       <module fileurl="file://$PROJECT_DIR$/../VTCPlateform/.idea/VTCPlateform-User.iml" filepath="$PROJECT_DIR$/../VTCPlateform/.idea/VTCPlateform-User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tiktac-admin-system/.idea/admin-system.iml" filepath="$PROJECT_DIR$/../tiktac-admin-system/.idea/admin-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../admin-system/.idea/admin-system.iml" filepath="$PROJECT_DIR$/../admin-system/.idea/admin-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/website.iml" filepath="$PROJECT_DIR$/.idea/website.iml" />
     </modules>
   </component>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="tiktac" uuid="2cb6eb80-6518-4b3c-8459-e66960be4a99">
+    <data-source source="LOCAL" name="tiktak@localhost" uuid="9b86c8a0-eda2-4292-87b1-401b3e2c9025">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:8889/tikTak</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:8889/tiktak</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

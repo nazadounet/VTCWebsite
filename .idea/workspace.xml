@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8374b945-7d33-4586-bb68-f593d68aa27b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/1735527287_B972052158Z.1_20140218201941_000_G9V1VLP2V.3-0.jpg" afterPath="$PROJECT_DIR$/img/care.jpg" />
-      <change type="MODIFICATION" beforePath="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/DriverCtrl.php" afterPath="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/DriverCtrl.php" />
-      <change type="MODIFICATION" beforePath="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/uploadFileCtrl.php" afterPath="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/uploadFileCtrl.php" />
-      <change type="MODIFICATION" beforePath="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/routes.php" afterPath="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VTCPlateform/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../VTCPlateform/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VTCPlateform/config.xml" afterPath="$PROJECT_DIR$/../VTCPlateform/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VTCPlateform/package-lock.json" afterPath="$PROJECT_DIR$/../VTCPlateform/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VTCPlateform/package.json" afterPath="$PROJECT_DIR$/../VTCPlateform/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/SignUpCtrl.js" afterPath="$PROJECT_DIR$/js/controllers/SignUpCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/fileUploadCtrl.js" afterPath="$PROJECT_DIR$/js/controllers/fileUploadCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/uploadTestCtrl.js" afterPath="$PROJECT_DIR$/js/controllers/uploadTestCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/driversDataManagerFactory.js" afterPath="$PROJECT_DIR$/js/services/driversDataManagerFactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/driverSection.html" afterPath="$PROJECT_DIR$/partials/driverSection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/home.html" afterPath="$PROJECT_DIR$/partials/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/testUpload.html" afterPath="$PROJECT_DIR$/partials/testUpload.html" />
-    </list>
+    <list default="true" id="8374b945-7d33-4586-bb68-f593d68aa27b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,145 +13,100 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tiktac" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tiktac" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tiktac" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="drivers" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="tiktak@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="tiktak@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="tiktak" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="tiktak@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="tiktak" type="e3449647:DbNodeDescriptor" />
+        <item name="drivers" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="website" />
   </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="uploadTestCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/uploadTestCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUpCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/SignUpCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testUpload.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/testUpload.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driverSection.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/partials/driverSection.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-button#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-button#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-input-container#0;n#div#1;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-button#1;n#div#2;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#i#0;n#div#0;n#md-dialog#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#md-dialog#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#md-dialog#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-dialog#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#md-dialog#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2278">
-              <caret line="67" column="42" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#md-toolbar#0;n#md-content#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tikTak.drivers" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
+      <file leaf-file-name="drivers" pinned="false" current-in-tab="true">
+        <entry file="das://table:/f2f843f/9b86c8a0-eda2-4292-87b1-401b3e2c9025/tiktak.drivers">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
             </state>
           </provider>
-          <provider editor-type-id="text-editor">
+        </entry>
+      </file>
+      <file leaf-file-name="DriverSectionCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/js/controllers/DriverSectionCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetDataFromApiFactory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/js/services/GetDataFromApiFactory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../VTCPlateform/www/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driverSection.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/partials/driverSection.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+              <folding>
+                <element signature="n#style#0;n#md-icon#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,12 +126,12 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="/Applications/MAMP/htdocs/Api-ti-tak" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../VTCPlateform/www/js/controller/SignUpCtrl.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/js/services/driversDataManagerFactory.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/controllers/fileUploadCtrl.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../VTCPlateform/www/js/controller/SignUpCtrl.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -208,17 +145,40 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/controllers/SideMenuCtrl.js" />
         <option value="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/UserProfilCtrl.php" />
-        <option value="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/js/controllers/fileUploadCtrl.js" />
-        <option value="$PROJECT_DIR$/js/services/driversDataManagerFactory.js" />
         <option value="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/uploadFileCtrl.php" />
-        <option value="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/DriverCtrl.php" />
         <option value="$PROJECT_DIR$/partials/home.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/controllers/SignUpCtrl.js" />
         <option value="$PROJECT_DIR$/js/controllers/uploadTestCtrl.js" />
         <option value="$PROJECT_DIR$/partials/testUpload.html" />
+        <option value="$PROJECT_DIR$/../admin-system/js/app.js" />
+        <option value="$PROJECT_DIR$/../admin-system/css/main.css" />
+        <option value="$PROJECT_DIR$/../admin-system/js/controllers/Nav-bar-topCtrl.js" />
+        <option value="$PROJECT_DIR$/../admin-system/index.html" />
+        <option value="$PROJECT_DIR$/../admin-system/partials/home.html" />
+        <option value="$PROJECT_DIR$/../admin-system/.gitignore" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/partials/home.html" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/partials/page1Test.html" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/partials/page2Test.html" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/partials/page3Test.html" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/css/main.css" />
         <option value="$PROJECT_DIR$/partials/driverSection.html" />
+        <option value="$PROJECT_DIR$/js/services/driversDataManagerFactory.js" />
+        <option value="$PROJECT_DIR$/js/controllers/SignUpCtrl.js" />
+        <option value="/Applications/MAMP/htdocs/Api-ti-tak/config/mail.php" />
+        <option value="/Applications/MAMP/htdocs/Api-ti-tak/config/services.php" />
+        <option value="/Applications/MAMP/htdocs/Api-ti-tak/.env" />
+        <option value="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/email_controller.php" />
+        <option value="/Applications/MAMP/htdocs/Api-ti-tak/resources/views/emails/contactFormWebsite.blade.php" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/js/controllers/Nav-bar-topCtrl.js" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/js/services/GetDataFromApi.js" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/index.html" />
+        <option value="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/DriverCtrl.php" />
+        <option value="/Applications/MAMP/htdocs/Api-ti-tak/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/partials/driverSection.html" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/js/services/GetDataFromApiFactory.js" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/js/controllers/DriverSectionCtrl.js" />
+        <option value="$PROJECT_DIR$/../tiktac-admin-system/js/app.js" />
       </list>
     </option>
   </component>
@@ -231,14 +191,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="/Applications/MAMP/htdocs/Api-ti-tak/node_modules" />
     <handled-path value="$PROJECT_DIR$/../VTCPlateform/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../tiktac-admin-system/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="803" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="27" />
+    <option name="y" value="22" />
+    <option name="width" value="1431" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -261,44 +224,66 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api-ti-tak" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api-ti-tak" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api-ti-tak" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api-ti-tak" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -324,15 +309,6 @@
     </configuration>
     <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
       <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -392,11 +368,31 @@
       <workItem from="1503690091308" duration="4910000" />
       <workItem from="1503781003107" duration="579000" />
       <workItem from="1503791223484" duration="130000" />
+      <workItem from="1503881648750" duration="8000" />
+      <workItem from="1504185368208" duration="25000" />
+      <workItem from="1505138124007" duration="88000" />
+      <workItem from="1505138223504" duration="785000" />
+      <workItem from="1505152309383" duration="149000" />
+      <workItem from="1505152606350" duration="3918000" />
+      <workItem from="1505163939143" duration="295000" />
+      <workItem from="1505164243569" duration="5316000" />
+      <workItem from="1505212146248" duration="41000" />
+      <workItem from="1505212196003" duration="5095000" />
+      <workItem from="1505225435886" duration="4044000" />
+      <workItem from="1505253961171" duration="559000" />
+      <workItem from="1505308951146" duration="151000" />
+      <workItem from="1505309113308" duration="1962000" />
+      <workItem from="1505344521257" duration="3355000" />
+      <workItem from="1505386050019" duration="8304000" />
+      <workItem from="1505426426417" duration="5649000" />
+      <workItem from="1505489270625" duration="7149000" />
+      <workItem from="1505522422656" duration="115000" />
+      <workItem from="1505556344314" duration="1047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89518000" />
+    <option name="totallyTimeSpent" value="137573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,23 +404,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="804" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21530758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24606581" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19456366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20598291" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -433,7 +428,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -443,398 +438,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/database/migrations/2017_06_04_213646_create_user_profil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/UsersProfilsModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../VTCPlateform/www/js/modules/factories/InitMapFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../VTCPlateform/www/js/modules/factories/GoogleMapMarkerFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../VTCPlateform/www/js/modules/factories/GetTimeTravel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/driver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../VTCPlateform/www/js/modules/factories/GetGeolocationFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/database/migrations/2017_08_22_023216_add_status_column_to_driver_table.php" />
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/database/migrations/2017_08_21_133043_create_driver_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/database/migrations/2017_08_22_132123_add_filePath_to_drivers_tbale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/vendor/symfony/css-selector/CssSelectorConverter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/SideMenuCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/driverSectionFile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/UserProfilCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers" />
+    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers" />
+    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers" />
+    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers" />
+    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers" />
     <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/uploadFileCtrl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
@@ -842,118 +450,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/DriverCtrl.php">
+    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers" />
+    <entry file="file://$PROJECT_DIR$/js/controllers/uploadTestCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="62">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/driversDataManagerFactory.js">
+    <entry file="file://$PROJECT_DIR$/partials/testUpload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="155">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/fileUploadCtrl.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbf704e3-d8e3-472c-b67e-695ccf51b93a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0fcc2812-6553-4fbc-9fa0-64416d743959/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8e5bdb37-b5b4-4fda-be61-467e817051a0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9b86c8a0-eda2-4292-87b1-401b3e2c9025/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
+        <state relative-caret-position="1550">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-system/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/js/controllers/fileUploadCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-system/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/../admin-system/index.html" />
+    <entry file="file://$PROJECT_DIR$/../admin-system/js/controllers/Nav-bar-topCtrl.js" />
+    <entry file="file://$PROJECT_DIR$/../admin-system/partials/home.html" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-system/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="40" column="87" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/partials/userSection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/partials/page3Test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1271">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="372">
           <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/vendor/laravel/framework/src/Illuminate/Foundation/Providers/FoundationServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/vendor/laravel/framework/src/Illuminate/Foundation/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/resources/views/emails/contactFormWebsite.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/SignUpCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="597">
+          <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/be46c290/2cb6eb80-6518-4b3c-8459-e66960be4a99/tikTak.drivers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/js/controllers/Nav-bar-topCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/driversDataManagerFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/driverSection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="107" column="57" lean-forward="false" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/partials/driverSection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#md-icon#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/js/controllers/DriverSectionCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
-          <caret line="67" column="42" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#md-toolbar#0;n#md-content#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/uploadTestCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="1054">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/testUpload.html">
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/js/services/GetDataFromApiFactory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="310">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/driverSection.html">
+    <entry file="file://$PROJECT_DIR$/../VTCPlateform/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#0;n#div#1;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#1;n#div#2;n#div#0;n#md-dialog#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#md-dialog#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#md-dialog#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#md-dialog#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#0;n#div#0;n#md-dialog#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#md-dialog#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tiktac-admin-system/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/DriverCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/Api-ti-tak/app/Http/Controllers/email_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="19" column="103" lean-forward="false" selection-start-line="19" selection-start-column="103" selection-end-line="19" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/f2f843f/9b86c8a0-eda2-4292-87b1-401b3e2c9025/tiktak.drivers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

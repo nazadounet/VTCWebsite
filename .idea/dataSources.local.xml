@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="tiktac" uuid="2cb6eb80-6518-4b3c-8459-e66960be4a99">
-      <database-info product="MySQL" version="5.6.34" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+    <data-source name="tiktak@localhost" uuid="9b86c8a0-eda2-4292-87b1-401b3e2c9025">
+      <database-info product="MySQL" version="5.6.35" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <resolve-scope>tikTak:</resolve-scope>
+      <introspection-schemas>*:tiktak</introspection-schemas>
     </data-source>
   </component>
 </project>

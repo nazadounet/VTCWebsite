@@ -3,7 +3,6 @@
 
 
     <div class="flexDisplayed" style="width: 100%; height: 80%; background: url('../img/chauffeur-privé.jpg');background-size: cover;">
-
     </div>
 
     <div class="flex-column justify-center item-center" style="width: 100%; margin-top: 70px;">
@@ -89,7 +88,7 @@
                 </div>
                 <div class="flex-row justify-center item-center">
                     <md-button>Verifier votre status</md-button>
-                    <md-button ng-click="cancel()">Retour</md-button>
+                    <md-button ng-click="cancelEmailUsed()">Retour</md-button>
                 </div>
 
             </md-dialog>
@@ -106,12 +105,12 @@
 
                     <md-input-container style="margin-top: 60px;">
                         <label>Email</label>
-                        <input ng-model="user.title">
+                        <input ng-model="driverData.email">
                     </md-input-container>
                 </div>
                 <div class="flex-row justify-center item-center" style="padding-bottom: 15px;">
                     <md-button ng-click="cancel()">Retour</md-button>
-                    <md-button class="md-raised">Verifier votre status</md-button>
+                    <md-button ng-click="checkStatus()" class="md-raised">Verifier votre status</md-button>
                 </div>
             </md-dialog>
         </div>
